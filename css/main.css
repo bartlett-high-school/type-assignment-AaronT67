@@ -1,6 +1,25 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
 
+@font-face {
+    font-family: 'amblebold';
+    src: url('../fonts/amble-bold-webfont.woff2') format('woff2'),
+         url('../fonts/amble-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* Start the CSS*/
 body {
 	margin: 0;
@@ -22,26 +41,33 @@ body {
 }
 
 h1 {
+	font-family: 'amblebold',serif;
 
 }
 
 h2 {
+	font-family: 'alex_brushregular', serif;
 
-}
+
+}	
 
 h3 {
+	font-family: 'amblebold', serif;
 
 }
 
 h4 {
+	font-family: 'alex_brushregular', serif;
 
 }
 
 h5 {
+	font-family: 'amblebold', serif;
 
 }
 
 h6 {
+	font-family: 'alex_brushregular', serif;
 
 }
 
